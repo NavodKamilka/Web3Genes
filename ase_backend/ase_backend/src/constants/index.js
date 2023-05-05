@@ -1,0 +1,39 @@
+const STATUS_ENDORSED = 'ENDORSED';
+const TYPE_SP_ADMIN = 'SP_ADMIN';
+const STATUS_ACTIVE = 'ACTIVE';
+const STATUS_EMAIL_VERIFIED = 'EMAIL_VERIFIED';
+const STATUS_INITIATED = 'INITIATED';
+const TYPE_DO_UPLOADER = 'DO_UPLOADER';
+const TYPE_DO_ENDORSER = 'DO_ENDORSER';
+const TYPE_DO_ADMIN = 'DO_ADMIN';
+const TYPE_VAL_SUPER_ADMIN = 'VAL_SUPER_ADMIN';
+const STATUS_INACTIVE = 'INACTIVE';
+const CONFLICT = 'Conflict';
+const ISE = 'Internal Server Error';
+const NF = 'Not Found';
+const UNAUTHORIZED = 'Unauthorized';
+const BAD = 'Bad Request';
+const OK = 'OK';
+const ERR_TOKEN_EXPIRED = 'TokenExpiredError';
+const NA = 'Method Not Allowed';
+
+module.exports = {
+  STATUS_ENDORSED,
+  TYPE_SP_ADMIN,
+  STATUS_ACTIVE,
+  STATUS_EMAIL_VERIFIED,
+  STATUS_INITIATED,
+  TYPE_DO_UPLOADER,
+  TYPE_DO_ENDORSER,
+  TYPE_DO_ADMIN,
+  TYPE_VAL_SUPER_ADMIN,
+  STATUS_INACTIVE,
+  CONFLICT,
+  ISE,
+  NF,
+  UNAUTHORIZED,
+  BAD,
+  OK,
+  ERR_TOKEN_EXPIRED,
+  NA,
+};
